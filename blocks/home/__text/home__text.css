@@ -1,6 +1,10 @@
 .home__text {
     display: inline;
     font-size: 35px;
+    font-family: 'raleway-c';
+    font-weight: 600;
+    padding-top: 50px;
+   
 }
 
 .home__text-wrapper {
