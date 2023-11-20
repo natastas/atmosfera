@@ -1,0 +1,5 @@
+.burger-menu__block {
+    margin: 45px auto 0;
+    display: flex;
+    gap: 30px;
+}

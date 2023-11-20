@@ -58,3 +58,7 @@
 @import url(blocks/footer/__number/footer__number.css);
 @import url(blocks/footer/__title/footer__title.css);
 @import url(blocks/footer/__wrapper/footer__wrapper.css);
+
+@import url(blocks/burger-menu/burger-menu.css);
+@import url(blocks/burger-menu/__block/burger-menu__block.css);
+@import url(blocks/burger-menu/__phone-img.css/burger-menu__phone-img.css);
