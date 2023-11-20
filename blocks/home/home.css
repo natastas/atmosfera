@@ -17,3 +17,9 @@
 .home__block-text {
     margin-bottom: 10px;
 }
+
+.home__link {
+    color: #fafafa;
+    text-decoration: none;
+    cursor: pointer;
+}
