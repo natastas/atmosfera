@@ -1,5 +1,7 @@
 .header__link {
     cursor: pointer;
+    color: #fafafa;
+    text-decoration: none;
 }
 
 .header__link:hover {
