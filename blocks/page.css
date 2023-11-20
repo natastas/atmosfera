@@ -1,7 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .page {
     font-family: 'Franchise', sans-serif;
     background-color: #2A2C2F;
-    color: white;
+    color: #fafafa;
     min-width: 320px;
     text-rendering: optimizeLegibility;
     margin: 0 auto;

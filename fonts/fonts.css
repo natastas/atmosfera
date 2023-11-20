@@ -1,6 +1,15 @@
 @font-face {
     font-family: 'Franchise';
     src: url("./franchise_bold.ttf");
-    font-weight: 700;
+
 }
 
+@font-face {
+    font-family: 'outfit-c';
+    src: url("./Outfit-VariableFont.ttf");
+}
+
+@font-face {
+    font-family: 'raleway-c';
+    src: url("./Raleway-VariableFont.ttf");
+}
