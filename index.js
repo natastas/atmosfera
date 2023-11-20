@@ -23,44 +23,6 @@ new Swiper('.swiper', {
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
-if (ScrollTrigger.isTouch !== 1) {
-
-    ScrollSmoother.create ({
-        wrapper: 'wrapper',
-        content: 'content',
-        smooth: 3,
-        effects: true,
-    })
-
-    gsap.fromTo('.advantages__block-left', { x: -100, opacity: 0 }, {
-        opacity: 1, x: 0,
-        scrollTrigger: {
-            trigger: '.advantages__icon',
-            start: '-850',
-		
-    
-        }
-    })
-
-    gsap.fromTo('.advantages__block-right', { x: +100, opacity: 0 }, {
-        opacity: 1, x: 0,
-        scrollTrigger: {
-            trigger: '.advantages__icon',
-            start: '-850',
-
-        }
-    })
-
-    gsap.fromTo('.footer', { y: -100, opacity: 0 }, {
-        opacity: 1, y: 0,
-        scrollTrigger: {
-            trigger: '.footer',
-            start: '-850',
-    
-        }
-    })
-}
-
 const burger = document.querySelector('.burger-menu');
 const menu = document.querySelector('.burger-menu__nav');
 const link = document.querySelector('.burger-menu__link');
@@ -82,3 +44,41 @@ function closeBurger() {
     burger.classList.add('burger-menu_active');
     body.classList.add('body_noscroll');
 } 
+
+// if (ScrollTrigger.isTouch !== 1) {
+
+//     ScrollSmoother.create ({
+//         wrapper: 'wrapper',
+//         content: 'content',
+//         smooth: 3,
+//         effects: true,
+//     })
+
+//     gsap.fromTo('.advantages__block-left', { x: -100, opacity: 0 }, {
+//         opacity: 1, x: 0,
+//         scrollTrigger: {
+//             trigger: '.advantages__icon',
+//             start: '-850',
+		
+    
+//         }
+//     })
+
+//     gsap.fromTo('.advantages__block-right', { x: +100, opacity: 0 }, {
+//         opacity: 1, x: 0,
+//         scrollTrigger: {
+//             trigger: '.advantages__icon',
+//             start: '-850',
+
+//         }
+//     })
+
+//     gsap.fromTo('.footer', { y: -100, opacity: 0 }, {
+//         opacity: 1, y: 0,
+//         scrollTrigger: {
+//             trigger: '.footer',
+//             start: '-850',
+    
+//         }
+//     })
+// }
