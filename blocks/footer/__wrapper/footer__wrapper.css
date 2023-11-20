@@ -1,0 +1,8 @@
+.footer__wrapper {
+    max-width: 420px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}

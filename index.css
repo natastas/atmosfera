@@ -1,0 +1,61 @@
+@import url(fonts/fonts.css);
+@import url(blocks/normalize.css);
+@import url(blocks/page.css);
+@import url(blocks/content.css);
+
+@import url(blocks/header/header.css);
+@import url(blocks/header/__link/header__link.css);
+@import url(blocks/header/__button/header__button.css);
+@import url(blocks/header/__list/header__list.css);
+@import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__menu/header__menu.css);
+@import url(blocks/header/__wrapper/header__wrapper.css);
+
+@import url(blocks/home/home.css);
+@import url(blocks/home/__adress/home__adress.css);
+@import url(blocks/home/__phone/home__phone.css);
+@import url(blocks/home/__time/home__time.css);
+@import url(blocks/home/__wrapper/home__wrapper.css);
+@import url(blocks/home/__info-content/home__info-content.css);
+@import url(blocks/home/__button/home__button.css);
+@import url(blocks/home/__info/home__info.css);
+@import url(blocks/home/__content/home__content.css);
+@import url(blocks/home/__logo/home__logo.css);
+@import url(blocks/home/__title/home__title.css);
+@import url(blocks/home/__text/home__text.css);
+
+@import url(blocks/advantages/__block/advantages__block.css);
+@import url(blocks/advantages/__icon/advantages__icon.css);
+@import url(blocks/advantages/__icons/advantages__icons.css);
+@import url(blocks/advantages/__text/advantages__text.css);
+@import url(blocks/advantages/__texts/advantages__texts.css);
+@import url(blocks/advantages/__title/advantages__title.css);
+@import url(blocks/advantages/__wrapper/advantages__wrapper.css);
+@import url(blocks/advantages/advantages.css);
+
+@import url(blocks/menu/menu.css);
+@import url(blocks/menu/__image/menu__image.css);
+@import url(blocks/menu/__title/menu__title.css);
+@import url(blocks/menu/__wrapper/menu__wrapper.css);
+
+@import url(blocks/gallery/gallety.css);
+@import url(blocks/gallery/__title/gallery__title.css);
+@import url(blocks/gallery/__wrapper/gallery__wrapper.css);
+
+@import url(blocks/loyality/loyality.css);
+@import url(blocks/loyality/__button/loyality__button.css);
+@import url(blocks/loyality/__text/loyality__text.css);
+@import url(blocks/loyality/__title/loyality__title.css);
+@import url(blocks/loyality/__wrapper/loyality__wrapper.css);
+
+@import url(blocks/footer/footer.css);
+@import url(blocks/footer/__adress/footer__adress.css);
+@import url(blocks/footer/__block/footer__block.css);
+@import url(blocks/footer/__icon/footer__icon.css);
+@import url(blocks/footer/__icons/footer__icons.css);
+@import url(blocks/footer/__link/footer__link.css);
+@import url(blocks/footer/__logo/footer__logo.css);
+@import url(blocks/footer/__mail/footer__mail.css);
+@import url(blocks/footer/__number/footer__number.css);
+@import url(blocks/footer/__title/footer__title.css);
+@import url(blocks/footer/__wrapper/footer__wrapper.css);

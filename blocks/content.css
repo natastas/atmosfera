@@ -1,0 +1,6 @@
+.content {
+    display: grid;
+    gap: 92px;
+    min-width: 320px;
+    margin: 56px auto 0;
+}

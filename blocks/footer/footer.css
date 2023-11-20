@@ -1,0 +1,8 @@
+.footer {
+    max-width: 520px;
+  
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    background-color: #2A2C2F;
+}

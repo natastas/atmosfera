@@ -1,0 +1,7 @@
+.header__link {
+    cursor: pointer;
+}
+
+.header__link:hover {
+    color: rgb(70, 94, 83);
+}

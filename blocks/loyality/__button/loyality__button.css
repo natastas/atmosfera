@@ -1,0 +1,35 @@
+.loyality__button {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 10px 40px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 52px;
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #516b49;
+	box-shadow: 0 2px #0e3b1f;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+}
+.loyality__button:hover {
+	background-color: #575e55;
+}
+.loyality__button:active {
+	background-color: #196337 !important;
+}
+.loyality__button:focus-visible {
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+.loyality__button:disabled {
+	background-color: #6c87b5;
+	pointer-events: none;
+}

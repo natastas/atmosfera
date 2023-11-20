@@ -1,0 +1,39 @@
+.swiper-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    max-width: 800px;
+    height: 100%;
+    
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.swiper-scrollbar {
+    opacity: 0;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #516b49 ;
+}
+
+.swiper-button-prev::after {
+    color: #516b49;
+    font-size: 60px;
+}
+
+.swiper-button-next::after {
+    color: #516b49;
+    font-size: 60px;
+}
