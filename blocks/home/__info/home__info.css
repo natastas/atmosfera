@@ -5,3 +5,9 @@
     font-family: 'raleway-c';
     font-size: 18px;
 }
+
+@media screen and (max-width: 979px) {
+    .home__info {
+        font-size: 14px;
+    }
+}  
