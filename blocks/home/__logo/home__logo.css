@@ -1,5 +1,11 @@
 .home__logo {
-    color: white;
     width: 200px;
-   
 }
+
+@media screen and (max-width: 979px) {
+    .home__logo {
+        width: 150px;
+       
+    }
+}  
+

@@ -1,5 +1,6 @@
 .home__wrapper {
     max-width: 900px;
     margin: 200px auto;
-    
+    padding: 0 25px;
+    border: 1px solid red;
 }

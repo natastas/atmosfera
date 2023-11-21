@@ -8,6 +8,23 @@
 }
 
 .home__text-wrapper {
-  
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 979px) {
+    .home__text {
+        font-size: 27px;
+    }
+}  
+
+@media screen and (max-width: 520px) {
+    .home__text {
+        font-size: 20px;
+    }
+}  
+
+@media screen and (max-width: 450px) {
+    .home__text {
+        font-size: 14px;
+    }
+}  

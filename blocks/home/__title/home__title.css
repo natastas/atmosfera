@@ -6,3 +6,15 @@
 .home__title-color {
     color: #516b49;
 }
+
+@media screen and (max-width: 979px) {
+    .home__title {
+        font-size: 60px;
+    }
+}  
+
+@media screen and (max-width: 520px) {
+    .home__title {
+        font-size: 35px;
+    }
+}  

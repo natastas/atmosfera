@@ -3,7 +3,7 @@ let typed = new Typed('.home__text', {
     backSpeed: 50,
     startDelay: 500,
     loop: true,
-    stringsElement: '.home__text-vision'
+    stringsElement: '.home__text-vision',
 });
 
 new Swiper('.swiper', {
