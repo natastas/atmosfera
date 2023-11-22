@@ -3,14 +3,12 @@
     font-size: 35px;
     font-family: 'raleway-c';
     font-weight: 600;
-    padding-top: 50px;
-    border: 1px solid white;
-   
+    padding-top: 40px;   
 }
 
 .home__text-wrapper {
-    margin-bottom: 30px;
-    border: 1px solid darkorange;
+    margin-bottom: 10px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 979px) {
@@ -28,5 +26,11 @@
 @media screen and (max-width: 450px) {
     .home__text {
         font-size: 14px;
+    }
+}  
+
+@media screen and (max-width: 799px) {
+    .home__text-wrapper {
+        padding-left: 50px;
     }
 }  

@@ -2,6 +2,11 @@
     max-width: 900px;
     margin: 2px auto;
     padding: 0 25px;
-    padding-top: 150px;
-    border: 1px solid red;
+    padding-top: 200px;
 }
+
+@media screen and (max-width: 510px) {
+    .home__wrapper {
+		text-align: center;
+    }
+}  

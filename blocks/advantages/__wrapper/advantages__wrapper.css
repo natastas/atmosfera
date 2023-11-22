@@ -1,5 +1,14 @@
 .advantages__wrapper {
     max-width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
+    
 }
+
+@media screen and (max-width: 844px) {
+    .advantages__wrapper {
+		padding-left: 50px;
+        width: 400px;
+        margin: 0 ;
+       
+    }
+} 

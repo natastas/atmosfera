@@ -1,11 +1,10 @@
 .home__info {
-    margin-top: 20px;
+    margin-top: 35px;
     display: flex;
     justify-content: space-between;
     font-family: 'raleway-c';
-    font-size: 18px;
-    border: 1px solid yellow;
-   
+    font-size: 20px;   
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width: 979px) {

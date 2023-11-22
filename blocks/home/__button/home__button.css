@@ -49,8 +49,8 @@
     }
 }  
 
-@media screen and (max-width: 810px) {
-    .home__button {
-        margin: 30px auto 30px;
+@media screen and (max-width: 799px) {
+    .home__button-wrapper {
+		text-align: center;
     }
 }  
