@@ -34,3 +34,10 @@
         padding-left: 50px;
     }
 }  
+
+
+@media screen and (max-width: 520px) {
+    .home__text-wrapper {
+        padding-left: 10px;
+    }
+}   
