@@ -35,8 +35,6 @@
 	pointer-events: none;
 }
 
-
-
 @media screen and (max-width: 979px) {
     .home__button {
 		padding: 14px 30px;
@@ -48,5 +46,11 @@
 		line-height: 28px;
 		font-size: 16px;
 		box-shadow: 2px 3px #0e3b1f;
+    }
+}  
+
+@media screen and (max-width: 810px) {
+    .home__button {
+        margin: 30px auto 30px;
     }
 }  

@@ -4,11 +4,13 @@
     font-family: 'raleway-c';
     font-weight: 600;
     padding-top: 50px;
+    border: 1px solid white;
    
 }
 
 .home__text-wrapper {
     margin-bottom: 30px;
+    border: 1px solid darkorange;
 }
 
 @media screen and (max-width: 979px) {

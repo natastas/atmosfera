@@ -4,10 +4,18 @@
     justify-content: space-between;
     font-family: 'raleway-c';
     font-size: 18px;
+    border: 1px solid yellow;
+   
 }
 
 @media screen and (max-width: 979px) {
     .home__info {
         font-size: 14px;
+    }
+}  
+
+@media screen and (max-width: 810px) {
+    .home__info {
+        justify-content: space-around;
     }
 }  
