@@ -1,0 +1,84 @@
+.swiper {
+    padding: 50px 100px 100px 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* .swiper-wrapper {  
+    max-width: 1200px;
+    max-width: 100%;
+} 
+
+.swiper-slide {
+    max-width: 100%;
+}  */
+
+.swiper-image {
+    width: 100%;
+}
+
+.swiper-scrollbar {
+    opacity: 0;
+}
+
+.swiper-pagination {
+    padding-top: 20px;
+    position: relative;
+} 
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #516b49 ;
+}
+
+.swiper-button-prev::after {
+    color: #516b49;
+    font-size: 60px;
+}
+
+.swiper-button-next::after {
+    color: #516b49;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 1020px) {
+    .swiper {
+    max-width: 800px;
+    padding: 80px;
+    }
+} 
+
+@media screen and (max-width: 849px) {
+    .swiper {
+        padding: 50px;
+    max-width: 600px;
+    }
+} 
+
+@media screen and (max-width: 649px) {
+    .swiper {
+        padding: 0;
+        max-width: 550px;
+    }
+} 
+
+@media screen and (max-width: 569px) {
+    .swiper {
+        max-width: 450px;
+    }
+} 
+
+@media screen and (max-width: 469px) {
+    .swiper {
+        max-width: 350px;
+    }
+} 
+
+@media screen and (max-width: 370px) {
+    .swiper {
+        max-width: 300px;
+    }
+} 

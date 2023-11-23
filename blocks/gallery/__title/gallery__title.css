@@ -4,6 +4,23 @@
     padding-bottom: 15px;
 }
 
+.gallery__title-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 844px) {
+    .gallery__title-wrapper {
+		padding-left: 50px;
+    }
+} 
+
+@media screen and (max-width: 599px) {
+    .gallery__title-wrapper {
+		padding-left: 0;
+    }
+} 
+
 @media screen and (max-width: 790px) {
     .gallery__title {
         font-size: 45px;

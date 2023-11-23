@@ -4,9 +4,9 @@
 
 @media screen and (max-width: 844px) {
     .gallery__wrapper {
-		padding-left: 50px;
+		padding-left: 10px;
         margin: 0 ;
-        padding-right: 20px;
+        padding-right: 10px;
     }
 } 
 
