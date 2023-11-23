@@ -24,12 +24,15 @@ new Swiper('.swiper', {
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
 const burger = document.querySelector('.burger-menu');
+const button = document.querySelector('.burger-menu__button')
 const menu = document.querySelector('.burger-menu__nav');
 const link = document.querySelector('.burger-menu__link');
 const body = document.body;
 const links = Array.from(menu.children);
+const overlay = document.querySelector('.overlay');
 
-burger.addEventListener('click', openBurger);
+button.addEventListener('click', openBurger);
+overlay.addEventListener('click', closeBurger);
 
 links.forEach((link) => {
     link.addEventListener('click', closeBurger);
@@ -38,11 +41,13 @@ links.forEach((link) => {
 function openBurger() {
     burger.classList.toggle('burger-menu_active');
     body.classList.toggle('body_noscroll');
+    overlay.classList.toggle('overlay_active');
 }
 
 function closeBurger() {
-    burger.classList.add('burger-menu_active');
-    body.classList.add('body_noscroll');
+    overlay.classList.remove('overlay_active');
+    burger.classList.remove('burger-menu_active');
+    body.classList.remove('body_noscroll');
 } 
 
 // if (ScrollTrigger.isTouch !== 1) {
