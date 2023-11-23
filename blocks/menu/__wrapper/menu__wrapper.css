@@ -2,3 +2,18 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 844px) {
+    .menu__wrapper {
+		padding-left: 50px;
+        margin: 0 ;
+        padding-right: 50px;
+    }
+} 
+
+@media screen and (max-width: 599px) {
+    .menu__wrapper {
+		padding-left: 20px;
+        padding-right: 20px;
+    }
+} 
