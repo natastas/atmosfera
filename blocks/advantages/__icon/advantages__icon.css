@@ -1,3 +1,9 @@
 .advantages__icon {
     width: 80px;
 }
+
+@media screen and (max-width: 599px) {
+    .advantages__icon {
+		width: 53px;
+    }
+} 

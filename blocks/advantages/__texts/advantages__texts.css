@@ -1,4 +1,9 @@
 .advantages__texts {
     font-size: 20px;
-   
 }
+
+@media screen and (max-width: 599px) {
+    .advantages__texts {
+        font-size: 18px;
+    }
+} 
