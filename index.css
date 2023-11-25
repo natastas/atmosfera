@@ -60,6 +60,18 @@
 @import url(blocks/footer/__title/footer__title.css);
 @import url(blocks/footer/__wrapper/footer__wrapper.css);
 
+@import url(blocks/contacts/contacts.css);
+@import url(blocks/contacts/__adress/contacts__adress.css);
+@import url(blocks/contacts/__block/contacts__block.css);
+@import url(blocks/contacts/__icon/contacts__icon.css);
+@import url(blocks/contacts/__icons/contacts__icons.css);
+@import url(blocks/contacts/__link/contacts__link.css);
+@import url(blocks/contacts/__logo/contacts__logo.css);
+@import url(blocks/contacts/__mail/contacts__mail.css);
+@import url(blocks/contacts/__number/contacts__number.css);
+@import url(blocks/contacts/__title/contacts__title.css);
+@import url(blocks/contacts/__wrapper/contacts__wrapper.css);
+
 @import url(blocks/burger-menu/burger-menu.css);
 @import url(blocks/burger-menu/__block/burger-menu__block.css);
 @import url(blocks/burger-menu/__phone-img.css/burger-menu__phone-img.css);

@@ -1,0 +1,12 @@
+.contacts {
+    max-width: 520px;
+    background-color: #2A2C2F;
+    display: none;
+    font-family: 'raleway-c';
+}
+
+@media screen and (max-width: 949px) {
+    .contacts {
+		display: flex;
+    }
+} 

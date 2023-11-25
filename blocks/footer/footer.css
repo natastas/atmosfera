@@ -1,8 +1,21 @@
 .footer {
     max-width: 520px;
-  
     position: absolute;
     bottom: 20px;
-    left: 300px;
+    left: 220px;
     background-color: #2A2C2F;
+    font-family: 'raleway-c';
 }
+
+
+@media screen and (max-width: 1100px) {
+  .footer {
+    left: 10px;
+  }
+}  
+
+@media screen and (max-width: 949px) {
+  .footer {
+    display: none;
+  }
+}  

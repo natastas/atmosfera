@@ -1,6 +1,6 @@
-.footer__wrapper {
+.contacts__wrapper {
     max-width: 420px;
-    padding: 50px;
+    padding: 0 60px 60px 60px;
     display: flex;
     flex-direction: column;
     gap: 35px;
