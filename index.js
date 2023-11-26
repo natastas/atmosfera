@@ -1,3 +1,5 @@
+'use strict'
+
 let typed = new Typed('.home__text', {
     typeSpeed: 40,
     backSpeed: 50,
@@ -49,6 +51,31 @@ function closeBurger() {
     burger.classList.remove('burger-menu_active');
     body.classList.remove('body_noscroll');
 } 
+
+const token = '6610010186:AAF3ujwqn18MVJMQ8e7SWO0COaFMR_L9mEQ';
+const chat_id = '-1002041151654';
+const uri_api = `https://api.telegram.org/bot${ token }/sendMessage`;
+
+document.getElementById('form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    let message = `<b>Новая Бронь!</b>\n`;
+    message += `<b>Имя: </b> ${ this.name.value }\n`;
+    message += `<b>Телефон: +7 </b> ${ this.tel.value }\n`;
+    message += `<b>Количество гостей: </b> ${ this.guest.value }\n`;
+    message += `<b>Дата: </b> ${ this.date.value }\n`;
+    message += `<b>Время: </b> ${ this.time.value }\n`;
+    
+    axios.post(uri_api, {
+        chat_id: chat_id,
+        parse_mode: 'html',
+        text: message
+    })
+})
+
+
+
+
 
 // if (ScrollTrigger.isTouch !== 1) {
 

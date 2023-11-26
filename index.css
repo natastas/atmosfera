@@ -42,6 +42,18 @@
 @import url(blocks/gallery/__title/gallery__title.css);
 @import url(blocks/gallery/__wrapper/gallery__wrapper.css);
 
+@import url(blocks/form/__button/form__button.css);
+@import url(blocks/form/__label-name/form__label-name.css);
+@import url(blocks/form/__name/form__name.css);
+@import url(blocks/form/__tel/form__tel.css);
+@import url(blocks/form/form.css);
+@import url(blocks/form/__date/form__date.css);
+@import url(blocks/form/__guest/form__guest.css);
+@import url(blocks/form/__time/form__time.css);
+@import url(blocks/form/__span/form__span.css);
+@import url(blocks/form/__block/form__block.css);
+@import url(blocks/form/__input/form__input.css);
+
 @import url(blocks/loyality/loyality.css);
 @import url(blocks/loyality/__button/loyality__button.css);
 @import url(blocks/loyality/__text/loyality__text.css);

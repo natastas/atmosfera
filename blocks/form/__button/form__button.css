@@ -1,0 +1,41 @@
+.form__button {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 10px 40px;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 52px;
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #516b49;
+	box-shadow: 0 2px #0e3b1f;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+    max-width: 300px;
+}
+.form__button:hover {
+	background-color: #575e55;
+}
+.form__button:active {
+	background-color: #196337 !important;
+}
+.form__button:focus-visible {
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+.form__button:disabled {
+	background-color: #6c87b5;
+	pointer-events: none;
+}
+
+@media screen and (max-width: 649px) {
+    .form__button {
+		max-width: 600px;
+    }
+} 

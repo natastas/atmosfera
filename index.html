@@ -131,6 +131,37 @@
                     </div>
                 </div>
             </section>
+            <section class="form_validation">
+                <form class="form" name="form" id="form" >
+                    <div class="form__block">
+                        <label for="form__name" class="form__label form__label-name">Имя</label>
+                        <input type="text" class="form__input form__name" id="form__name" placeholder="Имя" name="name">
+                        <span class="form__span">Сообщение об ошибке</span>
+                    </div>
+                    <div class="form__block">
+                        <label for="form__tel" class="form__label form__label-tel">Телефон</label>
+                        <input type="tel" class="form__input form__tel" id="form__tel" placeholder="" name="tel">
+                        <span class="form__span">Сообщение об ошибке</span>
+                    </div>
+                    <div class="form__block">
+                        <label for="form__guest" class="form__label form__label-guest">Количество гостей</label>
+                        <input type="text" class="form__input form__guest" id="form__guest" placeholder="1" name="guest">
+                        <span class="form__span">Сообщение об ошибке</span>
+                    </div>
+                    <div class="form__block">
+                        <label for="form__date" class="form__label form__label-date">Дата визита</label>
+                        <input type="date" class="form__input form__date" id="form__date" placeholder="" name="date">
+                        <span class="form__span">Сообщение об ошибке</span>
+                    </div>
+                    <div class="form__block">
+                        <label for="form__time" class="form__label form__label-time">Время</label>
+                        <input type="time" class="form__input form__time" id="form__time" placeholder="" name="time">
+                        <span class="form__span">Сообщение об ошибке</span>
+                    </div>
+                    <button type="submit" class="form__button">ЗАБРОНИРОВАТЬ</button>
+                    <div class="form__result"></div>
+                </form>
+            </section>
             <section class="loyality" id="loyality">
                 <div class="loyality__wrapper">
                     <h2 class="loyality__title">ПРОГРАММА &nbsp; ЛОЯЛЬНОСТИ</h2>
@@ -189,6 +220,7 @@
     <script src="libs/gsap/ScrollSmoother.min.js" ></script>
     <script src="libs/gsap/ScrollTrigger.min.js" ></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="index.js"></script>
     
 </body>
