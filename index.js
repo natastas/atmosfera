@@ -9,6 +9,7 @@ let typed = new Typed('.home__text', {
     stringsElement: '.home__text-vision',
 });
 
+//свайпер
 new Swiper('.swiper', {
     navigation: {
         nextEl: '.swiper-button-next',
@@ -32,8 +33,40 @@ new Swiper('.swiper', {
           slidesOffsetBefore: 0,
         }
       },
-    // spaceBetween: 50,
-    // loop: true,
+    spaceBetween: 250,
+    loop: true,
+    speed: 500,
+    effect: 'slider',
+    initialSlide: 2,
+    centeredSlides: true,
+    slidesPerView: 2,
+});
+
+new Swiper('.swiper_two', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+    breakpoints: {
+        // mobile + tablet - 320-990
+        320: {
+          slidesPerView: 1,
+          loop: true,
+        },
+        
+        // desktop >= 991
+        949: {
+          slidesPerView: 2,
+          slidesOffsetBefore: 0,
+        }
+      },
+    spaceBetween: 200,
+    loop: true,
     speed: 500,
     effect: 'slider',
     initialSlide: 2,
