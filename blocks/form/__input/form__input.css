@@ -24,7 +24,6 @@
     filter: invert(38%) sepia(6%) saturate(2557%) hue-rotate(61deg) brightness(91%) contrast(75%);
 }
 
-
 @media screen and (max-width: 649px) {
     .form__input {
         font-size: 16px;

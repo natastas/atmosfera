@@ -1,7 +1,6 @@
 .menu__wrapper {
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom: 50px;
 }
 
 @media screen and (max-width: 844px) {

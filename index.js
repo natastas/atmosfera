@@ -19,9 +19,23 @@ new Swiper('.swiper', {
         clickable: true,
         dynamicBullets: true,
     },
-    spaceBetween: 200,
+    breakpoints: {
+        // mobile + tablet - 320-990
+        320: {
+          slidesPerView: 1
+        },
+        // desktop >= 991
+        949: {
+          slidesPerView: 2
+        }
+      },
+    spaceBetween: 50,
     loop: true,
-    centereSlide: true,
+    speed: 500,
+    effect: 'coverflow',
+    initialSlide: 2,
+    centeredSlides: true,
+    slidesPerView: 2,
 });
 
 //меню бургер

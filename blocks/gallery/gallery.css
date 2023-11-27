@@ -1,17 +1,17 @@
-.swiper {
+/* .swiper {
     padding: 50px 100px 0 100px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-/* .swiper-wrapper {  
+.swiper-wrapper {  
     max-width: 1200px;
     max-width: 100%;
 } 
 
 .swiper-slide {
     max-width: 100%;
-}  */
+} 
 
 .swiper-image {
     width: 100%;
@@ -81,4 +81,4 @@
     .swiper {
         max-width: 300px;
     }
-} 
+}  */
