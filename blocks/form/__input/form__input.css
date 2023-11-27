@@ -9,6 +9,7 @@
     padding-bottom: 5px;
     outline: none;
     border-radius: 0;
+    font-size: 18px;
 }
 
 .form__input_error {
@@ -22,3 +23,10 @@
 .form__time::-webkit-calendar-picker-indicator {
     filter: invert(38%) sepia(6%) saturate(2557%) hue-rotate(61deg) brightness(91%) contrast(75%);
 }
+
+
+@media screen and (max-width: 649px) {
+    .form__input {
+        font-size: 16px;
+    }
+} 
