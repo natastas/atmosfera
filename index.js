@@ -26,13 +26,14 @@ new Swiper('.swiper', {
         },
         // desktop >= 991
         949: {
-          slidesPerView: 2
+          slidesPerView: 2,
+          slidesOffsetBefore: 0,
         }
       },
-    spaceBetween: 50,
-    loop: true,
+    // spaceBetween: 50,
+    // loop: true,
     speed: 500,
-    effect: 'coverflow',
+    effect: 'slider',
     initialSlide: 2,
     centeredSlides: true,
     slidesPerView: 2,
