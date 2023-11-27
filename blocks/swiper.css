@@ -140,4 +140,8 @@
     .swiper-button-next::after {
         font-size: 20px;
     }
+
+    .swiper {
+        margin-top: -20px;
+    }
 } 
