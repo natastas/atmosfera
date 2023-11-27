@@ -14,3 +14,11 @@
 .form__input_error {
     border: 1px solid red;
 }
+
+.form__date::-webkit-calendar-picker-indicator {
+    filter: invert(38%) sepia(6%) saturate(2557%) hue-rotate(61deg) brightness(91%) contrast(75%);
+}
+
+.form__time::-webkit-calendar-picker-indicator {
+    filter: invert(38%) sepia(6%) saturate(2557%) hue-rotate(61deg) brightness(91%) contrast(75%);
+}

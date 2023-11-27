@@ -1,3 +1,13 @@
 .form__span {
     display: none;
 }
+
+.form__span-vis {
+    display: block;
+    font-size: 12px;
+    color: red;
+}
+
+.form__label-vis {
+    color: red;
+}

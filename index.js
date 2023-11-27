@@ -60,8 +60,8 @@ const success = document.getElementById('success');
 
 let form = document.querySelector('.form');
 let formInputs = document.querySelectorAll('.form__input');
-let inputPhone = document.querySelector('.form__tel');
-
+let inputPhone = document.querySelector('.form__tel'); 
+//let inputErr = document.querySelector('.form__span');
 let formSubmit = document.querySelector('.form__button');
 
 document.getElementById('form').addEventListener('submit', function (e) {
@@ -72,9 +72,11 @@ document.getElementById('form').addEventListener('submit', function (e) {
     formInputs.forEach(function (input) {
                 if (input.value === '') {
                     input.classList.add('form__input_error');
-                    console.log('oskaofkoasfkoa')
+                    //inputErr.classList.add('form__span-vis');
+                    console.log('oshibka')
                 } else {
                     input.classList.remove('form__input_error');
+                   // inputErr.classList.remove('form__span-vis');
                 }
             })
 
@@ -85,7 +87,7 @@ document.getElementById('form').addEventListener('submit', function (e) {
 
     let message = `<b>Новая Бронь!</b>\n`;
     message += `<b>Имя: </b> ${ this.name.value }\n`;
-    message += `<b>Телефон: +7 </b> ${ this.tel.value }\n`;
+    message += `<b>Телефон: </b> ${ this.tel.value }\n`;
     message += `<b>Количество гостей: </b> ${ this.guest.value }\n`;
     message += `<b>Дата: </b> ${ this.date.value }\n`;
     message += `<b>Время: </b> ${ this.time.value }\n`;
@@ -102,17 +104,17 @@ document.getElementById('form').addEventListener('submit', function (e) {
         this.guest.value = '';
         this.date.value = '';
         this.time.value = '';
-        success.innerHTML = 'Форма отправлена!';
+        success.innerHTML = 'Спасибо! Данные успешно отправлены.';
         success.style.display = 'block';
     }) 
     .catch((err) => {
-        console.warn(err)
+        console.warn(err);
+        
     })
     .finally(() => {
         console.log('the end')
     })
 })
-
 
 //Макса ввода телефона
 window.addEventListener("DOMContentLoaded", function() {
