@@ -12,10 +12,12 @@
 
 .alert-success {
     text-align: center;
-    display: block;
+    padding: 20px;
+    display: none;
     background-color: #ade394;
     max-width: 300px;
     border-radius: 3px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 949px) {

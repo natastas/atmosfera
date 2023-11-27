@@ -21,15 +21,19 @@
     max-width: 300px;
 	margin: 0 auto;
 }
+
 .form__button:hover {
 	background-color: #575e55;
 }
+
 .form__button:active {
 	background-color: #196337 !important;
 }
+
 .form__button:focus-visible {
 	box-shadow: 0 0 0 3px lightskyblue;
 }
+
 .form__button:disabled {
 	background-color: #6c87b5;
 	pointer-events: none;
@@ -40,3 +44,7 @@
 		max-width: 600px;
     }
 } 
+
+.form__button-none {
+    display: none;
+}
