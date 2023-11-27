@@ -19,6 +19,7 @@
 	touch-action: manipulation;  
 	vertical-align: top;
     max-width: 300px;
+	margin: 0 auto;
 }
 .form__button:hover {
 	background-color: #575e55;

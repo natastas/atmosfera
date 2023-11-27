@@ -8,4 +8,9 @@
     padding-top: 10px;
     padding-bottom: 5px;
     outline: none;
+    border-radius: 0;
+}
+
+.form__input_error {
+    border: 1px solid red;
 }

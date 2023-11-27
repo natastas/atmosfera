@@ -1,5 +1,6 @@
 'use strict'
 
+//самопечатающийся текст
 let typed = new Typed('.home__text', {
     typeSpeed: 40,
     backSpeed: 50,
@@ -23,8 +24,7 @@ new Swiper('.swiper', {
     centereSlide: true,
 });
 
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
-
+//меню бургер
 const burger = document.querySelector('.burger-menu');
 const button = document.querySelector('.burger-menu__button')
 const menu = document.querySelector('.burger-menu__nav');
@@ -52,12 +52,35 @@ function closeBurger() {
     body.classList.remove('body_noscroll');
 } 
 
+//валидация формы и отправка в тг
 const token = '6610010186:AAF3ujwqn18MVJMQ8e7SWO0COaFMR_L9mEQ';
 const chat_id = '-1002041151654';
 const uri_api = `https://api.telegram.org/bot${ token }/sendMessage`;
+const success = document.getElementById('success');
+
+let form = document.querySelector('.form');
+let formInputs = document.querySelectorAll('.form__input');
+let inputPhone = document.querySelector('.form__tel');
 
 document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault();
+
+    let inputPhone = document.querySelector('.form__tel');
+    let emtyInputs = Array.from(formInputs).filter(input => input.value === '');
+
+    formInputs.forEach(function (input) {
+                if (input.value === '') {
+                    input.classList.add('form__input_error');
+                    console.log('oskaofkoasfkoa')
+                } else {
+                    input.classList.remove('form__input_error');
+                }
+            })
+        
+    if (emtyInputs.length !== 0) {
+        console.log('ne otpravil');
+        return false;
+    }
 
     let message = `<b>Новая Бронь!</b>\n`;
     message += `<b>Имя: </b> ${ this.name.value }\n`;
@@ -71,12 +94,42 @@ document.getElementById('form').addEventListener('submit', function (e) {
         parse_mode: 'html',
         text: message
     })
+    .then((res) => {
+        this.name.value = '';
+        this.tel.value = '';
+        this.guest.value = '';
+        this.date.value = '';
+        this.time.value = '';
+        success.innerHTML = 'Форма отправлена!';
+        success.style.display = 'block';
+    }) 
+    .catch((err) => {
+        console.warn(err)
+    })
+    .finally(() => {
+        console.log('the end')
+    })
 })
 
 
+// let form = document.querySelector('.form');
+// let formInputs = document.querySelectorAll('.form__input');
+// let inputPhone = document.querySelector('.form__tel');
 
+// form.onsubmit = function () {
+//     let phoneVal = inputPhone.value;
 
+//     formInputs.forEach(function (input) {
+//         if (input.value === '') {
+//             input.classList.add('form__input_error');
+//             comsole.log('oskaofkoasfkoa')
+//         } else {
+//             input.classList.remove('error');
+//         }
+//     })
+// }
 
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 // if (ScrollTrigger.isTouch !== 1) {
 
 //     ScrollSmoother.create ({
