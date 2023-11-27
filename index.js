@@ -22,8 +22,10 @@ new Swiper('.swiper', {
     breakpoints: {
         // mobile + tablet - 320-990
         320: {
-          slidesPerView: 1
+          slidesPerView: 1,
+          loop: true,
         },
+        
         // desktop >= 991
         949: {
           slidesPerView: 2,
