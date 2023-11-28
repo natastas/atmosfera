@@ -200,24 +200,7 @@ function mask(event) {
     input.addEventListener("blur", mask, false);
 });
 
-// let form = document.querySelector('.form');
-// let formInputs = document.querySelectorAll('.form__input');
-// let inputPhone = document.querySelector('.form__tel');
-
-// form.onsubmit = function () {
-//     let phoneVal = inputPhone.value;
-
-//     formInputs.forEach(function (input) {
-//         if (input.value === '') {
-//             input.classList.add('form__input_error');
-//             comsole.log('oskaofkoasfkoa')
-//         } else {
-//             input.classList.remove('error');
-//         }
-//     })
-// }
-
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
+// gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 // if (ScrollTrigger.isTouch !== 1) {
 
 //     ScrollSmoother.create ({
@@ -232,8 +215,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 //         scrollTrigger: {
 //             trigger: '.advantages__icon',
 //             start: '-850',
-		
-    
 //         }
 //     })
 
@@ -242,7 +223,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 //         scrollTrigger: {
 //             trigger: '.advantages__icon',
 //             start: '-850',
-
 //         }
 //     })
 
@@ -251,7 +231,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 //         scrollTrigger: {
 //             trigger: '.footer',
 //             start: '-850',
-    
 //         }
 //     })
 // }

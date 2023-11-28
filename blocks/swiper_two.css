@@ -1,23 +1,23 @@
-.swiper {
+.swiper_two {
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
 
-.swiper-wrapper {
+.swiper-wrapper_two {
     box-sizing: content-box;
 }
 
-.swiper-slide {
+.swiper-slide_two {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.swiper-image {
-    width: 100%;
-    object-fit: cover;
-    height: 500px;
+.swiper-image_two {
+    width: 70%;
+    object-fit: contain;
+    height: 100%;
 } 
 
 .swiper-slide-next {
@@ -55,6 +55,20 @@
     font-size: 14px;
     background-color: #516b49;
 }
+
+@media screen and (max-width: 1700px) {
+    .swiper-button-prev {
+        left: 350px;
+    }
+    
+    .swiper-button-next {
+        right: 350px;
+    }
+
+    .swiper-image {
+        width: 70%;
+    } 
+} 
 
 @media screen and (max-width: 1500px) {
     .swiper-button-prev {
